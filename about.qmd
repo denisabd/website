@@ -1,9 +1,38 @@
 ---
-title: "About"
+title: "About Me"
+about: 
+  template: solana
+  image-shape: rounded
+  image-width: 15em
+  image: profile_photo.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/denisabd
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/denis-abdullin-b7980413/
+    - icon: envelope
+      text: Email
+      href: mailto:denisabdullincz@gmail.com
 ---
 
-About this site
+::: {#hero-heading}
+Hi there! My name is **Denis Abdullin** and I am a Data Science Manager at Johnson & Johnson. I started my journey in Data Science in 2016 after a couple of years in master data and process automation. I created multiple internal packages helping data and business professionals to get insights from data.
 
-```{r}
-1 + 1
-```
+My passion is building tools for **automated data analysis**, **natural language generation** systems, **time series** forecasting, building shiny modules and applications. I mostly code in R, but can also handle Python.
+
+Here are some examples of my work:
+
+-   [**narrator**](https://denisabd.github.io/narrator/ "Build text out of data with narrator") **-** template-based NLG system in R
+
+-   [**async shiny**](https://github.com/denisabd/async_shiny "Use promises for scaling shiny applications") application using promises
+:::
+
+## Experience
+
+Johnson & Johnson \| Data Science Manager \| Feb 2020
+
+Johnson & Johnson \| Data Scientist \| Jul 2018 - Jan 2020
+
+Johnson & Johnson \| Data Analyst \| Sep 2016 - Jun 2018

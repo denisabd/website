@@ -5,16 +5,15 @@ project:
 website:
   title: "Denis Abdullin"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+   background: primary
+   left:
+     - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: zephyr
+      dark: cyborg
     css: styles.css
-    toc: true
 
 editor: visual
-

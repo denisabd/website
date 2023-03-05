@@ -20,7 +20,7 @@ about:
 ::: {#hero-heading}
 Hi there! My name is **Denis Abdullin** and I am a Data Science Manager at Johnson & Johnson. I started my journey in Data Science in 2016 after a couple of years in master data and process automation. I created multiple internal packages helping data and business professionals to get insights from data.
 
-My passion is building tools for **automated data analysis**, **natural language generation** systems, **time series** forecasting, building shiny modules and applications. I mostly code in R, but can also handle Python.
+My passion is building tools for **automated data analysis**, **natural language generation** systems, **time series** forecasting, building shiny modules and applications. I like both R and Python.
 
 Here are some examples of my work:
 

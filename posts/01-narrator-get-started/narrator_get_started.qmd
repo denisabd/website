@@ -1,0 +1,38 @@
+---
+title: "NLG with narrator"
+description: "Getting started with narrator package"
+author: "Denis Abdullin"
+date: "2/15/2023"
+image: "data_to_text.png"
+draft: true
+---
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("denisabd/narrator")
+```
+
+## Basics
+
+The core idea behind narrator is using `glue` package template engine.
+
+```{r}
+measure <- "Profit"
+profit <- "368.2 M"
+dimension <- "Category"
+level <- "Research"
+
+
+glue::glue("Overall {measure} for {level} {dimension} is equal to {profit}.")
+
+```
+
+```{r message=FALSE, warning=FALSE}
+library(narrator)
+library(dplyr)
+library(knitr)
+
+sales %>%
+  narrate_descriptive(measure = "Sales",
+               dimensions = c("Region", "Product"))
+```

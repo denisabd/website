@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi there! My name is Denis Abdullin and I am a Data Science Manager at Johnson & Johnson. I started my journey in Data Science in 2016 after a couple of years in master data and process automation. I created multiple internal packages helping data and business professionals to get insights from data.\nMy passion is building tools for automated data analysis, natural language generation systems, time series forecasting, building shiny modules and applications. I mostly code in R, but can also handle Python.\nHere are some examples of my work:\n\nnarrator - template-based NLG system in R\nasync shiny application using promises"
+    "text": "Hi there! My name is Denis Abdullin and I am a Data Science Manager at Johnson & Johnson. I started my journey in Data Science in 2016 after a couple of years in master data and process automation. I created multiple internal packages helping data and business professionals to get insights from data.\nMy passion is building tools for automated data analysis, natural language generation systems, time series forecasting, building shiny modules and applications. I like both R and Python.\nHere are some examples of my work:\n\nnarrator - template-based NLG system in R\nasync shiny application using promises"
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
     "title": "About Me",
     "section": "Experience",
     "text": "Experience\nJohnson & Johnson | Data Science Manager | Feb 2020\nJohnson & Johnson | Data Scientist | Jul 2018 - Jan 2020\nJohnson & Johnson | Data Analyst | Sep 2016 - Jun 2018"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
   }
 ]

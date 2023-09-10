@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "posts/01-narrator-get-started/narrator_get_started.html",
+    "href": "posts/01-narrator-get-started/narrator_get_started.html",
+    "title": "NLG with narrator",
+    "section": "",
+    "text": "# install.packages(\"devtools\")\ndevtools::install_github(\"denisabd/narrator\")"
+  },
+  {
+    "objectID": "posts/01-narrator-get-started/narrator_get_started.html#basics",
+    "href": "posts/01-narrator-get-started/narrator_get_started.html#basics",
+    "title": "NLG with narrator",
+    "section": "Basics",
+    "text": "Basics\nThe core idea behind narrator is using glue package template engine.\n\nmeasure &lt;- \"Profit\"\nprofit &lt;- \"368.2 M\"\ndimension &lt;- \"Category\"\nlevel &lt;- \"Research\"\n\n\nglue::glue(\"Overall {measure} for {level} {dimension} is equal to {profit}.\")\n\nOverall Profit for Research Category is equal to 368.2 M.\n\n\n\nlibrary(narrator)\nlibrary(dplyr)\nlibrary(knitr)\n\nsales %&gt;%\n  narrate_descriptive(measure = \"Sales\",\n               dimensions = c(\"Region\", \"Product\"))\n\n$`Total Sales`\nTotal Sales across all Regions is 38790478.4.\n\n$`Region by Sales`\nOutlying Regions by Sales are NA (18079736.4, 46.6 %) and EMEA (13555412.7, 34.9 %).\n\n$`NA by Product`\nIn NA, significant Products by Sales are Food & Beverage (7392821, 40.9 %) and Electronics (3789132.7, 21 %).\n\n$`EMEA by Product`\nIn EMEA, significant Products by Sales are Food & Beverage (5265113.2, 38.8 %) and Electronics (3182803.4, 23.5 %).\n\n$`Product by Sales`\nOutlying Products by Sales are Food & Beverage (15543469.7, 40.1 %) and Electronics (8608962.8, 22.2 %)."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me",
@@ -11,13 +25,13 @@
     "href": "index.html#experience",
     "title": "About Me",
     "section": "Experience",
-    "text": "Experience\nJohnson & Johnson | Data Science Manager | Feb 2020\nJohnson & Johnson | Data Scientist | Jul 2018 - Jan 2020\nJohnson & Johnson | Data Analyst | Sep 2016 - Jun 2018"
+    "text": "Experience\nMerck (MSD) | Data Science Associate Director | Sep 2023\nJohnson & Johnson | Data Science Manager | Feb 2020\nJohnson & Johnson | Data Scientist | Jul 2018 - Jan 2020\nJohnson & Johnson | Data Analyst | Sep 2016 - Jun 2018"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "No matching items"
+    "text": "NLG with narrator\n\n\nGetting started with narrator package\n\n\n\nDenis Abdullin\n\n\nJul 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

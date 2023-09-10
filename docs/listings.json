@@ -1,6 +1,8 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/posts/01-narrator-get-started/narrator_get_started.html"
+    ]
   }
 ]

@@ -1,0 +1,39 @@
+---
+title: "What a great hand! Best cards for your dashboards."
+description: "bslib cards"
+author: "Denis Abdullin"
+date: "11/30/2023"
+image: "rmd_logo.png"
+draft: true
+---
+
+## The Idea
+
+```{r}
+library(tidyverse)
+library(bslib)
+```
+
+```{r}
+out <- paste0("
+  \n\n```{r, echo=FALSE}
+  \n knitr::kable(mtcars)
+  \n```
+  ")
+
+cat(out)
+```
+
+After it we put this inline code at the end of the document, so that it actually knits `out` together with the other code.
+
+```{r, eval=FALSE}
+`r paste(knitr::knit(text = out), collapse = '\n')`
+```
+
+This is what I did inside of this blog post, it actually works with both `rmarkdown` and `quarto`. This website is built with Quarto.
+
+## Table Output
+
+<!-- knit output elements -->
+
+`r paste(knitr::knit(text = out), collapse = '\n')`

@@ -2,9 +2,9 @@
 title: "NLG with narrator"
 description: "Getting started with narrator package"
 author: "Denis Abdullin"
-date: "2/15/2023"
+date: "July 23, 2023"
 image: "data_to_text.png"
-draft: true
+draft: false
 ---
 
 ```{r, eval=FALSE}
